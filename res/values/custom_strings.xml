@@ -22,4 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="theme_style_light">Light style</string>
     <string name="theme_style_dark">Dark style</string>
 
+    <string name="left_tab_label">Google Now tab</string>
+    <string name="left_tab_description">Toggle Google Now integration</string>
 </resources>
