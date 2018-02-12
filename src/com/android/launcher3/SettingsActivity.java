@@ -217,6 +217,14 @@ public class SettingsActivity extends Activity {
                     return true;
                 }
             });
+
+            final ListPreference iconSizes = (ListPreference) findPreference(Utilities.ICON_SIZE);
+            iconSizes.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+                public boolean onPreferenceChange(Preference preference, Object newValue) {
+                    restart(getActivity());
+                    return true;
+                }
+            });
         }
 
         @Override
