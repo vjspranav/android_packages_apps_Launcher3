@@ -249,6 +249,11 @@ public abstract class BaseSwipeDetector {
 
     protected abstract void reportDraggingInternal(PointF displacement, MotionEvent event);
 
+
+    public boolean wasInitialTouchNegative() {
+        return mSubtractDisplacement > 0;
+    }
+
     private void reportDragEnd() {
         mVelocityTracker.computeCurrentVelocity(1000, mMaxVelocity);
         PointF velocity = new PointF(mVelocityTracker.getXVelocity() / 1000,
