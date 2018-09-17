@@ -39,7 +39,7 @@ import com.android.launcher3.util.Preconditions;
 import com.android.launcher3.util.SecureSettingsObserver;
 import com.android.launcher3.widget.custom.CustomWidgetManager;
 
-import com.android.internal.util.syberia.SyberiaUtils;
+import com.android.internal.util.stag.StagUtils;
 
 public class LauncherAppState {
 
@@ -79,7 +79,7 @@ public class LauncherAppState {
         Preconditions.assertUIThread();
         mContext = context;
 
-        setSearchAppAvailable(SyberiaUtils.isPackageInstalled(context, Utilities.SEARCH_PACKAGE));
+        setSearchAppAvailable(StagUtils.isPackageInstalled(context, Utilities.SEARCH_PACKAGE));
 
         mInvariantDeviceProfile = InvariantDeviceProfile.INSTANCE.get(mContext);
         mIconCache = new IconCache(mContext, mInvariantDeviceProfile);
