@@ -82,6 +82,10 @@ public final class Utilities {
     private static final Matrix sMatrix = new Matrix();
     private static final Matrix sInverseMatrix = new Matrix();
 
+    private static final boolean DESKTOP_SHOW_LABEL_DEFAULT = true;
+
+    public static final String DESKTOP_SHOW_LABEL = "pref_desktop_show_label";
+
     public static final boolean ATLEAST_P =
             Build.VERSION.SDK_INT >= Build.VERSION_CODES.P;
 
@@ -639,5 +643,9 @@ public final class Utilities {
         Message msg = Message.obtain(handler, callback);
         msg.setAsynchronous(true);
         handler.sendMessage(msg);
+    }
+
+    public static boolean showDesktopLabel(Context context) {
+        return getPrefs(context).getBoolean(DESKTOP_SHOW_LABEL,DESKTOP_SHOW_LABEL_DEFAULT);
     }
 }

@@ -146,4 +146,7 @@
     <string name="work_mode_off_label" msgid="3194894777601421047">"Уведомления и приложения отключены."</string>
     <string name="bottom_work_tab_user_education_close_button" msgid="4224492243977802135">"Закрыть"</string>
     <string name="bottom_work_tab_user_education_closed" msgid="1098340939861869465">"Закрыта"</string>
+
+    <string name="desktop_show_label_title">Показывать подписи</string>
+    <string name="desktop_show_label_summary">Показывать подписи под значками.</string>
 </resources>

@@ -103,6 +103,7 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver, 
 
     private final boolean mLayoutHorizontal;
     private final int mIconSize;
+    private final int display;
 
     @ViewDebug.ExportedProperty(category = "launcher")
     private boolean mIsIconVisible = true;
@@ -146,11 +147,16 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver, 
                 R.styleable.BubbleTextView, defStyle, 0);
         mLayoutHorizontal = a.getBoolean(R.styleable.BubbleTextView_layoutHorizontal, false);
 
-        int display = a.getInteger(R.styleable.BubbleTextView_iconDisplay, DISPLAY_WORKSPACE);
+        display = a.getInteger(R.styleable.BubbleTextView_iconDisplay, DISPLAY_WORKSPACE);
         int defaultIconSize = grid.iconSizePx;
         if (display == DISPLAY_WORKSPACE) {
-            setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.iconTextSizePx);
-            setCompoundDrawablePadding(grid.iconDrawablePaddingPx);
+        	if(Utilities.showDesktopLabel(context)) {
+	            setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.iconTextSizePx);
+	            setCompoundDrawablePadding(grid.iconDrawablePaddingPx);
+	        } else {
+	        	setTextSize(0);
+                setCompoundDrawablePadding(0);
+	        }
         } else if (display == DISPLAY_ALL_APPS) {
             setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.allAppsIconTextSizePx);
             setCompoundDrawablePadding(grid.allAppsIconDrawablePaddingPx);
@@ -235,7 +241,11 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver, 
         mBadgeColor = IconPalette.getMutedColor(info.iconColor, 0.54f);
 
         setIcon(iconDrawable);
-        setText(info.title);
+        if(display == DISPLAY_WORKSPACE) {
+			setText(Utilities.showDesktopLabel(getContext())?info.title:"");
+        } else {
+	        setText(info.title);
+	    }
         if (info.contentDescription != null) {
             setContentDescription(info.isDisabled()
                     ? getContext().getString(R.string.disabled_app_label, info.contentDescription)
