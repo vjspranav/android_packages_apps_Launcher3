@@ -225,6 +225,13 @@ public class SettingsActivity extends Activity {
                     return true;
                 }
             });
+
+            Preference hiddenApp = findPreference(Utilities.KEY_HIDDEN_APPS);
+            hiddenApp.setOnPreferenceClickListener(
+                preference -> {
+                    startActivity(new Intent(getActivity(), MultiSelectRecyclerViewActivity.class));
+                    return false;
+            });
         }
 
         @Override

@@ -137,8 +137,9 @@ public final class Utilities {
     public static final String GRID_COLUMNS = "pref_grid_columns";
     public static final String GRID_ROWS = "pref_grid_rows";
     public static final String HOTSEAT_ICONS = "pref_hotseat_icons";
-
     public static final String SHOW_LEFT_TAB_PREFERENCE_KEY = "pref_left_tab";
+    public static final String KEY_HIDDEN_APPS = "hidden_app";
+    public static final String KEY_HIDDEN_APPS_SET = "hidden_app_set";
 
     public static final String ICON_SIZE = "pref_icon_size";
 
