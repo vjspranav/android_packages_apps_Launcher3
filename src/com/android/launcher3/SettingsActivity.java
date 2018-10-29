@@ -232,6 +232,14 @@ public class SettingsActivity extends Activity {
                     startActivity(new Intent(getActivity(), HiddenAppsActivity.class));
                     return false;
             });
+
+            SwitchPreference notificationsGesture = (SwitchPreference) findPreference(Utilities.PREF_NOTIFICATIONS_GESTURE);
+            notificationsGesture.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+                public boolean onPreferenceChange(Preference preference, Object newValue) {
+                    restart(getActivity());
+                    return true;
+                }
+            });
         }
 
         @Override
