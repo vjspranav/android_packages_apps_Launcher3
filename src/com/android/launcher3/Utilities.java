@@ -79,6 +79,7 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.android.internal.util.stag.StagUtils;
 /**
  * Various utilities shared amongst the Launcher's classes.
  */
@@ -114,6 +115,18 @@ public final class Utilities {
     public static final int EDGE_NAV_BAR = 1 << 8;
 
     /**
+     * Set on a motion event do disallow any gestures and only handle touch.
+     * See {@link MotionEvent#setEdgeFlags(int)}.
+     */
+    public static final int FLAG_NO_GESTURES = 1 << 9;
+
+    static final String KEY_SHOW_SEARCHBAR = "pref_show_searchbar";
+
+    public static boolean shouldDisableGestures(MotionEvent ev) {
+        return (ev.getEdgeFlags() & FLAG_NO_GESTURES) == FLAG_NO_GESTURES;
+    }
+
+    /**
      * Indicates if the device has a debug build. Should only be used to store additional info or
      * add extra logging and not for changing the app behavior.
      */
@@ -129,6 +142,8 @@ public final class Utilities {
     // An intent extra to indicate the horizontal scroll of the wallpaper.
     public static final String EXTRA_WALLPAPER_OFFSET = "com.android.launcher3.WALLPAPER_OFFSET";
     public static final String EXTRA_WALLPAPER_FLAVOR = "com.android.launcher3.WALLPAPER_FLAVOR";
+
+    public static final String SEARCH_PACKAGE = "com.google.android.googlequicksearchbox";
 
     public static boolean IS_RUNNING_IN_TEST_HARNESS =
                     ActivityManager.isRunningInTestHarness();
@@ -624,4 +639,13 @@ public final class Utilities {
             return mSize;
         }
     }
+
+    public static boolean showQSB(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        if (!StagUtils.isPackageInstalled(context, SEARCH_PACKAGE)) {
+            return false;
+        }
+        return prefs.getBoolean(KEY_SHOW_SEARCHBAR, true);
+    }
+
 }
