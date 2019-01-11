@@ -47,11 +47,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">모두 지우기</string>
     <string name="allow_swipe_down_clearall_desc">최근 보기에서 모든 앱을 지우려면 아래쪽으로 밀기</string>
-    <string name="pref_homescreen_dt_gestures_title">더블 탭 제스처</string>
+    <string name="pref_homescreen_dt_gestures_title">두 번 누르기 제스처</string>
     <string name="pref_homescreen_dt_gestures_summary">홈 화면에서 두 번 눌렀을 때 실행할 액션 선택</string>
     <string name="pref_homescreen_dt_gestures_none">없음</string>
-    <string name="pref_homescreen_dt_gestures_sleep">화면 끄기</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Screen off</string>
     <string name="pref_homescreen_dt_gestures_torch">손전등</string>
+    <string name="pref_homescreen_dt_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Google search is not installed</string>
     <string name="pref_notifications_gesture_title">알림 제스처</string>
     <string name="pref_notifications_gesture_summary">빠른 설정 패널을 보려면 홈 화면에서 아래로 밀기</string>
     <!-- Google Feed -->

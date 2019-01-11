@@ -50,8 +50,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_dt_gestures_title">双击手势</string>
     <string name="pref_homescreen_dt_gestures_summary">选择主屏幕双击手势操作</string>
     <string name="pref_homescreen_dt_gestures_none">无</string>
-    <string name="pref_homescreen_dt_gestures_sleep">休眠</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Screen off</string>
     <string name="pref_homescreen_dt_gestures_torch">手电筒</string>
+    <string name="pref_homescreen_dt_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Google search is not installed</string>
     <string name="pref_notifications_gesture_title">通知手势</string>
     <string name="pref_notifications_gesture_summary">在主屏幕上垂直向下滑动以显示快速设置面板</string>
     <!-- Google Feed -->
@@ -61,7 +63,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="num_default">默认</string>
     <string name="number_of_columns_title">列数</string>
     <string name="number_of_rows_title">行数</string>
-    <string name="number_of_hotseat_title">底栏图标个数</string>
+    <string name="number_of_hotseat_title">基座图标个数</string>
     <string name="state_loading">正在应用\u2026</string>
     <!-- Hidden apps -->
     <string name="hide_app">隐藏应用程序</string>
@@ -71,7 +73,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="hide_selected">隐藏选中的应用</string>
     <string name="more">更多</string>
     <string name="reset_hidden_apps">重置所有</string>
-    <string name="reset_hidden_apps_done">隐藏应用当前可用</string>
+    <string name="reset_hidden_apps_done">隐藏当前可用的应用</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">应用程序标签</string>
     <string name="desktop_show_label_summary">在主屏幕上显示应用程序的标签</string>

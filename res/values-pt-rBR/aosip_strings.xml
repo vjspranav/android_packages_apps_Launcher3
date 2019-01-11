@@ -50,8 +50,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_dt_gestures_title">Gestos de toque duplo</string>
     <string name="pref_homescreen_dt_gestures_summary">Selecione a ação do duplo toque na tela inicial</string>
     <string name="pref_homescreen_dt_gestures_none">Nenhum</string>
-    <string name="pref_homescreen_dt_gestures_sleep">Desligar a tela</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Screen off</string>
     <string name="pref_homescreen_dt_gestures_torch">Lanterna</string>
+    <string name="pref_homescreen_dt_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Google search is not installed</string>
     <string name="pref_notifications_gesture_title">Gesto de notificações</string>
     <string name="pref_notifications_gesture_summary">Arraste verticalmente para baixo na tela inicial para mostrar o painel de notificação</string>
     <!-- Google Feed -->
