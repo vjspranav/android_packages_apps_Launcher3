@@ -50,10 +50,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_dt_gestures_title">Çift dokunma hareketi</string>
     <string name="pref_homescreen_dt_gestures_summary">Ana ekrana çift dokunma hareketi için eylem seçin</string>
     <string name="pref_homescreen_dt_gestures_none">Hiçbiri</string>
-    <string name="pref_homescreen_dt_gestures_sleep">Screen off</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Ekranı kapat</string>
     <string name="pref_homescreen_dt_gestures_torch">El feneri</string>
-    <string name="pref_homescreen_dt_gestures_google">Google search</string>
-    <string name="pref_homescreen_dt_gestures_google_toast">Google search is not installed</string>
+    <string name="pref_homescreen_dt_gestures_google">Google araması</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Google arama yüklü değil</string>
     <string name="pref_notifications_gesture_title">Bildirim hareketi</string>
     <string name="pref_notifications_gesture_summary">Hızlı ayarlar panelini göstermek için ana ekranda dikey olarak aşağı doğru hızlıca kaydırın</string>
     <!-- Google Feed -->

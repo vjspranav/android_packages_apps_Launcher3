@@ -50,10 +50,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_dt_gestures_title">Двойное нажатие</string>
     <string name="pref_homescreen_dt_gestures_summary">Выберите действие жеста двойного нажатия на главном экране</string>
     <string name="pref_homescreen_dt_gestures_none">Ничего</string>
-    <string name="pref_homescreen_dt_gestures_sleep">Screen off</string>
+    <string name="pref_homescreen_dt_gestures_sleep">Отключить экран</string>
     <string name="pref_homescreen_dt_gestures_torch">Фонарик</string>
-    <string name="pref_homescreen_dt_gestures_google">Google search</string>
-    <string name="pref_homescreen_dt_gestures_google_toast">Google search is not installed</string>
+    <string name="pref_homescreen_dt_gestures_google">Поиск в Google</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Приложение Google поиск не установлено</string>
     <string name="pref_notifications_gesture_title">Жест уведомления</string>
     <string name="pref_notifications_gesture_summary">Свайп вниз на домашнем экране для отображения панели быстрых настроек</string>
     <!-- Google Feed -->
