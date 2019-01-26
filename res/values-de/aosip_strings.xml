@@ -20,13 +20,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="settings_title">Einstellungen</string>
     <!-- Categories -->
     <string name="home_category_title">Startbildschirm</string>
-    <string name="home_category_summary">Anpassungen von Google Now und mehr</string>
+    <string name="home_category_summary">Grid layout, app labels and dock</string>
     <string name="icons_category_title">Symbole</string>
-    <string name="icons_category_summary">Wähle die Symbolform, -größe und mehr</string>
+    <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
     <string name="app_drawer_category_title">App-Übersicht</string>
-    <string name="app_drawer_category_summary">App-Übersicht konfigurieren</string>
+    <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
     <string name="gestures_category_title">Gesten</string>
-    <string name="gestures_category_summary">Verbessere deine Erfahrung</string>
+    <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
+    <string name="gestures_other_category_title">Other</string>
     <!-- Sub categories -->
     <string name="home_grid_title">Raster-Layout</string>
     <string name="icon_layout_title">Symbol-Layout</string>
@@ -39,26 +40,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="icon_shape_rounded_square">Abgerundetes Quadrat</string>
     <!-- Icon size -->
     <string name="icon_size_title">Symbolgröße</string>
-    <string name="icon_size_extra_small">Winzig</string>
-    <string name="icon_size_small">Klein</string>
-    <string name="icon_size_average">Standard</string>
-    <string name="icon_size_large">Groß</string>
-    <string name="icon_size_extra_large">Sehr groß</string>
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Beende all Apps aus dem Anwendungsverlauf</string>
     <string name="allow_swipe_down_clearall_desc">Wische im Anwenudngsverlauf herunter, um alle Apps zu beenden</string>
-    <string name="pref_homescreen_dt_gestures_title">Doppeltipp-Geste</string>
-    <string name="pref_homescreen_dt_gestures_summary">Wählen Sie die Aktion der Doppeltipp-Geste auf dem Startbildschirm</string>
-    <string name="pref_homescreen_dt_gestures_none">Keine</string>
-    <string name="pref_homescreen_dt_gestures_sleep">Screen off</string>
-    <string name="pref_homescreen_dt_gestures_torch">Taschenlampe</string>
-    <string name="pref_homescreen_dt_gestures_google">Google search</string>
-    <string name="pref_homescreen_dt_gestures_google_toast">Google search is not installed</string>
-    <string name="pref_notifications_gesture_title">Benachrichtigungsgeste</string>
-    <string name="pref_notifications_gesture_summary">Nach unten wischen um Benachrichtigsleiste anzuzeigen</string>
+    <string name="pref_homescreen_dt_gestures_title">Double tap</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">Swipe down</string>
+    <string name="pref_homescreen_gestures_none">None</string>
+    <string name="pref_homescreen_gestures_sleep">Screen off</string>
+    <string name="pref_homescreen_gestures_torch">Flashlight</string>
+    <string name="pref_homescreen_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Google-App nicht installiert</string>
+    <string name="pref_homescreen_gestures_volume_panel">Volume panel</string>
+    <string name="pref_homescreen_gestures_clear_notifications">Clear notifications</string>
+    <string name="pref_homescreen_gestures_screenshot">Screenshot</string>
+    <string name="pref_homescreen_gestures_notifications">Notifications</string>
+    <string name="pref_homescreen_gestures_qs_panel">QS panel</string>
     <!-- Google Feed -->
-    <string name="google_feed_title">Zeige die Google-App</string>
-    <string name="google_feed_summary">Links neben dem Startbildschirm</string>
+    <string name="google_feed_title">Enable Google App and Search</string>
+    <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
     <!-- Grid -->
     <string name="num_default">Standard</string>
     <string name="number_of_columns_title">Anzahl der Spalten</string>
@@ -76,9 +75,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="reset_hidden_apps_done">Versteckte Apps sind nun verfügbar</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">App Beschriftungen</string>
-    <string name="desktop_show_label_summary">App Beschriftungen auf dem Startbildschirm anzeigen</string>
+    <string name="desktop_show_label_summary">Show the labels of apps on the homescreen</string>
     <string name="allapps_show_label_summary">App-Beschriftungen in der App-Übersicht anzeigen</string>
-    <!-- Show searchbar -->
-    <string name="show_searchbar_title">Suchleiste anzeigen</string>
-    <string name="show_searchbar_summary">Suchleiste auf dem Startbildschirm anzeigen</string>
+    <!-- QSB -->
+    <string name="hotseat_qsb_preferences">Preferences</string>
+    <string name="label_search">Search</string>
+    <string name="label_voice_search">Voice search</string>
 </resources>

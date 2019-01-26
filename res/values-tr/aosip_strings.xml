@@ -20,13 +20,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="settings_title">Ayarlar</string>
     <!-- Categories -->
     <string name="home_category_title">Ana ekran</string>
-    <string name="home_category_summary">Google now paneli ve daha fazlasını ayarla</string>
+    <string name="home_category_summary">Grid layout, app labels and dock</string>
     <string name="icons_category_title">Simgeler</string>
-    <string name="icons_category_summary">Simge şeklini, boyutunu ve daha fazlasını ayarla</string>
+    <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
     <string name="app_drawer_category_title">Uygulama çekmecesi</string>
-    <string name="app_drawer_category_summary">Uygulama çekmecenizi özelleştirin</string>
+    <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
     <string name="gestures_category_title">Hareketler</string>
-    <string name="gestures_category_summary">Deneyiminizi geliştirin</string>
+    <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
+    <string name="gestures_other_category_title">Other</string>
     <!-- Sub categories -->
     <string name="home_grid_title">Izgara düzeni</string>
     <string name="icon_layout_title">Simge düzeni</string>
@@ -39,26 +40,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="icon_shape_rounded_square">Yuvarlak kare</string>
     <!-- Icon size -->
     <string name="icon_size_title">Simge boyutu</string>
-    <string name="icon_size_extra_small">Çok küçük</string>
-    <string name="icon_size_small">Küçük</string>
-    <string name="icon_size_average">Varsayılan</string>
-    <string name="icon_size_large">Büyük</string>
-    <string name="icon_size_extra_large">Çok büyük</string>
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Son uygulamalardan tümünü temizle</string>
     <string name="allow_swipe_down_clearall_desc">Tüm uygulamaları temizlemek için son uygulamalar görünümde dikey olarak aşağı doğru kaydırın</string>
-    <string name="pref_homescreen_dt_gestures_title">Çift dokunma hareketi</string>
-    <string name="pref_homescreen_dt_gestures_summary">Ana ekrana çift dokunma hareketi için eylem seçin</string>
-    <string name="pref_homescreen_dt_gestures_none">Hiçbiri</string>
-    <string name="pref_homescreen_dt_gestures_sleep">Ekranı kapat</string>
-    <string name="pref_homescreen_dt_gestures_torch">El feneri</string>
-    <string name="pref_homescreen_dt_gestures_google">Google araması</string>
+    <string name="pref_homescreen_dt_gestures_title">Double tap</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">Swipe down</string>
+    <string name="pref_homescreen_gestures_none">None</string>
+    <string name="pref_homescreen_gestures_sleep">Screen off</string>
+    <string name="pref_homescreen_gestures_torch">Flashlight</string>
+    <string name="pref_homescreen_gestures_google">Google search</string>
     <string name="pref_homescreen_dt_gestures_google_toast">Google arama yüklü değil</string>
-    <string name="pref_notifications_gesture_title">Bildirim hareketi</string>
-    <string name="pref_notifications_gesture_summary">Hızlı ayarlar panelini göstermek için ana ekranda dikey olarak aşağı doğru hızlıca kaydırın</string>
+    <string name="pref_homescreen_gestures_volume_panel">Volume panel</string>
+    <string name="pref_homescreen_gestures_clear_notifications">Clear notifications</string>
+    <string name="pref_homescreen_gestures_screenshot">Screenshot</string>
+    <string name="pref_homescreen_gestures_notifications">Notifications</string>
+    <string name="pref_homescreen_gestures_qs_panel">QS panel</string>
     <!-- Google Feed -->
-    <string name="google_feed_title">Google uygulamasını görüntüle</string>
-    <string name="google_feed_summary">Ana ekranın solunda</string>
+    <string name="google_feed_title">Enable Google App and Search</string>
+    <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
     <!-- Grid -->
     <string name="num_default">Varsayılan</string>
     <string name="number_of_columns_title">Sütun sayısı</string>
@@ -76,9 +75,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="reset_hidden_apps_done">Gizli uygulamalar artık mevcut</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">Uygulama etiketleri</string>
-    <string name="desktop_show_label_summary">Ana ekrandaki uygulamaların etiketlerini göster</string>
+    <string name="desktop_show_label_summary">Show the labels of apps on the homescreen</string>
     <string name="allapps_show_label_summary">Uygulama çekmecesinde uygulama etiketlerini göster</string>
-    <!-- Show searchbar -->
-    <string name="show_searchbar_title">Arama çubuğunu göster</string>
-    <string name="show_searchbar_summary">Ana ekranda arama çubuğunu göster</string>
+    <!-- QSB -->
+    <string name="hotseat_qsb_preferences">Preferences</string>
+    <string name="label_search">Search</string>
+    <string name="label_voice_search">Voice search</string>
 </resources>

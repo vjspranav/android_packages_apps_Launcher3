@@ -20,13 +20,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="settings_title">Настройки</string>
     <!-- Categories -->
     <string name="home_category_title">Домашний экран</string>
-    <string name="home_category_summary">Включить Google Now и другое</string>
+    <string name="home_category_summary">Grid layout, app labels and dock</string>
     <string name="icons_category_title">Иконки</string>
-    <string name="icons_category_summary">Задать форму иконок, размер и другое</string>
+    <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
     <string name="app_drawer_category_title">Меню приложений</string>
-    <string name="app_drawer_category_summary">Настроить меню приложений</string>
+    <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
     <string name="gestures_category_title">Жесты</string>
-    <string name="gestures_category_summary">Повысьте свой опыт использования</string>
+    <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
+    <string name="gestures_other_category_title">Other</string>
     <!-- Sub categories -->
     <string name="home_grid_title">Схема сетки</string>
     <string name="icon_layout_title">Расположение иконок</string>
@@ -39,26 +40,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="icon_shape_rounded_square">Квадрат с закруглениями</string>
     <!-- Icon size -->
     <string name="icon_size_title">Размер иконок</string>
-    <string name="icon_size_extra_small">Мелкий</string>
-    <string name="icon_size_small">Малый</string>
-    <string name="icon_size_average">Обычный</string>
-    <string name="icon_size_large">Большой</string>
-    <string name="icon_size_extra_large">Очень большой</string>
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Очистить всё из недавних</string>
     <string name="allow_swipe_down_clearall_desc">Свайп вниз в режиме просмотра недавних приложений, чтобы очистить все</string>
-    <string name="pref_homescreen_dt_gestures_title">Двойное нажатие</string>
-    <string name="pref_homescreen_dt_gestures_summary">Выберите действие жеста двойного нажатия на главном экране</string>
-    <string name="pref_homescreen_dt_gestures_none">Ничего</string>
-    <string name="pref_homescreen_dt_gestures_sleep">Отключить экран</string>
-    <string name="pref_homescreen_dt_gestures_torch">Фонарик</string>
-    <string name="pref_homescreen_dt_gestures_google">Поиск в Google</string>
+    <string name="pref_homescreen_dt_gestures_title">Double tap</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">Swipe down</string>
+    <string name="pref_homescreen_gestures_none">None</string>
+    <string name="pref_homescreen_gestures_sleep">Screen off</string>
+    <string name="pref_homescreen_gestures_torch">Flashlight</string>
+    <string name="pref_homescreen_gestures_google">Google search</string>
     <string name="pref_homescreen_dt_gestures_google_toast">Приложение Google поиск не установлено</string>
-    <string name="pref_notifications_gesture_title">Жест уведомления</string>
-    <string name="pref_notifications_gesture_summary">Свайп вниз на домашнем экране для отображения панели быстрых настроек</string>
+    <string name="pref_homescreen_gestures_volume_panel">Volume panel</string>
+    <string name="pref_homescreen_gestures_clear_notifications">Clear notifications</string>
+    <string name="pref_homescreen_gestures_screenshot">Screenshot</string>
+    <string name="pref_homescreen_gestures_notifications">Notifications</string>
+    <string name="pref_homescreen_gestures_qs_panel">QS panel</string>
     <!-- Google Feed -->
-    <string name="google_feed_title">Показывать Google Feed</string>
-    <string name="google_feed_summary">Слева от главного экрана</string>
+    <string name="google_feed_title">Enable Google App and Search</string>
+    <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
     <!-- Grid -->
     <string name="num_default">По умолчанию</string>
     <string name="number_of_columns_title">Количество столбцов</string>
@@ -76,9 +75,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="reset_hidden_apps_done">Скрытые приложения теперь доступны</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">Названия приложений</string>
-    <string name="desktop_show_label_summary">Показать названия приложений на домашнем экране</string>
+    <string name="desktop_show_label_summary">Show the labels of apps on the homescreen</string>
     <string name="allapps_show_label_summary">Показать названия приложений в меню приложений</string>
-    <!-- Show searchbar -->
-    <string name="show_searchbar_title">Показывать строку поиска</string>
-    <string name="show_searchbar_summary">Показать строку поиска на домашнем экране</string>
+    <!-- QSB -->
+    <string name="hotseat_qsb_preferences">Preferences</string>
+    <string name="label_search">Search</string>
+    <string name="label_voice_search">Voice search</string>
 </resources>

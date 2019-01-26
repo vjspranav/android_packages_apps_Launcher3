@@ -20,13 +20,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="settings_title">Configurações</string>
     <!-- Categories -->
     <string name="home_category_title">Tela inicial</string>
-    <string name="home_category_summary">Definir o Google no painel e muito mais</string>
+    <string name="home_category_summary">Grid layout, app labels and dock</string>
     <string name="icons_category_title">Ícones</string>
-    <string name="icons_category_summary">Definir forma de ícone, tamanho e muito mais</string>
+    <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
     <string name="app_drawer_category_title">Gaveta de apps</string>
-    <string name="app_drawer_category_summary">Personalizar sua gaveta de aplicativos</string>
+    <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
     <string name="gestures_category_title">Gestos</string>
-    <string name="gestures_category_summary">Melhorar a experiência</string>
+    <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
+    <string name="gestures_other_category_title">Other</string>
     <!-- Sub categories -->
     <string name="home_grid_title">Exibição em grade</string>
     <string name="icon_layout_title">Layout de ícone</string>
@@ -39,26 +40,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="icon_shape_rounded_square">Cantos arredondados</string>
     <!-- Icon size -->
     <string name="icon_size_title">Tamanho dos ícones</string>
-    <string name="icon_size_extra_small">Minúsculo</string>
-    <string name="icon_size_small">Pequeno</string>
-    <string name="icon_size_average">Padrão</string>
-    <string name="icon_size_large">Grande</string>
-    <string name="icon_size_extra_large">Extra grande</string>
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Limpar tudo a partir do recentes</string>
     <string name="allow_swipe_down_clearall_desc">Deslize verticalmente para baixo no recentes para limpar todos os aplicativos</string>
-    <string name="pref_homescreen_dt_gestures_title">Gestos de toque duplo</string>
-    <string name="pref_homescreen_dt_gestures_summary">Selecione a ação do duplo toque na tela inicial</string>
-    <string name="pref_homescreen_dt_gestures_none">Nenhum</string>
-    <string name="pref_homescreen_dt_gestures_sleep">Screen off</string>
-    <string name="pref_homescreen_dt_gestures_torch">Lanterna</string>
-    <string name="pref_homescreen_dt_gestures_google">Google search</string>
-    <string name="pref_homescreen_dt_gestures_google_toast">Google search is not installed</string>
-    <string name="pref_notifications_gesture_title">Gesto de notificações</string>
-    <string name="pref_notifications_gesture_summary">Arraste verticalmente para baixo na tela inicial para mostrar o painel de notificação</string>
+    <string name="pref_homescreen_dt_gestures_title">Double tap</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">Swipe down</string>
+    <string name="pref_homescreen_gestures_none">None</string>
+    <string name="pref_homescreen_gestures_sleep">Screen off</string>
+    <string name="pref_homescreen_gestures_torch">Flashlight</string>
+    <string name="pref_homescreen_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Aplicativo do Google não instalado</string>
+    <string name="pref_homescreen_gestures_volume_panel">Volume panel</string>
+    <string name="pref_homescreen_gestures_clear_notifications">Clear notifications</string>
+    <string name="pref_homescreen_gestures_screenshot">Screenshot</string>
+    <string name="pref_homescreen_gestures_notifications">Notifications</string>
+    <string name="pref_homescreen_gestures_qs_panel">QS panel</string>
     <!-- Google Feed -->
-    <string name="google_feed_title">Exibir aplicativo do Google</string>
-    <string name="google_feed_summary">À esquerda da sua tela inicial</string>
+    <string name="google_feed_title">Enable Google App and Search</string>
+    <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
     <!-- Grid -->
     <string name="num_default">Padrão</string>
     <string name="number_of_columns_title">Número de colunas</string>
@@ -76,9 +75,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="reset_hidden_apps_done">Aplicativos ocultos agora estão disponíveis</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">Rotulo dos apps</string>
-    <string name="desktop_show_label_summary">Mostrar os rótulos de apps na tela inicial</string>
+    <string name="desktop_show_label_summary">Show the labels of apps on the homescreen</string>
     <string name="allapps_show_label_summary">Mostrar os rótulos de apps na gaveta de aplicativos</string>
-    <!-- Show searchbar -->
-    <string name="show_searchbar_title">Mostrar barra de pesquisa</string>
-    <string name="show_searchbar_summary">Mostrar a barra de pesquisa na tela inicial</string>
+    <!-- QSB -->
+    <string name="hotseat_qsb_preferences">Preferences</string>
+    <string name="label_search">Search</string>
+    <string name="label_voice_search">Voice search</string>
 </resources>
