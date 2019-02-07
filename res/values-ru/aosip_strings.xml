@@ -22,15 +22,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="home_category_title">Домашний экран</string>
     <string name="home_category_summary">Grid layout, app labels and dock</string>
     <string name="icons_category_title">Иконки</string>
-    <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
+    <string name="icons_category_summary">Пакет значков, форма, размер и точки уведомлений</string>
     <string name="app_drawer_category_title">Меню приложений</string>
     <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
     <string name="gestures_category_title">Жесты</string>
     <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
-    <string name="gestures_other_category_title">Other</string>
+    <string name="gestures_other_category_title">Прочее</string>
     <!-- Sub categories -->
     <string name="home_grid_title">Схема сетки</string>
     <string name="icon_layout_title">Расположение иконок</string>
+    <!-- Icon labels -->
+    <string name="allapps_long_labels_title">Long app labels</string>
+    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
     <!-- Icon packs -->
     <string name="icon_pack">Набор иконок</string>
     <string name="icon_pack_summary">Измените внешний вид значков приложений</string>
@@ -43,18 +46,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Очистить всё из недавних</string>
     <string name="allow_swipe_down_clearall_desc">Свайп вниз в режиме просмотра недавних приложений, чтобы очистить все</string>
-    <string name="pref_homescreen_dt_gestures_title">Double tap</string>
-    <string name="pref_homescreen_swipe_down_gestures_title">Swipe down</string>
-    <string name="pref_homescreen_gestures_none">None</string>
-    <string name="pref_homescreen_gestures_sleep">Screen off</string>
-    <string name="pref_homescreen_gestures_torch">Flashlight</string>
-    <string name="pref_homescreen_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_title">Двойное нажатие</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">Свайп вниз</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_gestures_none">Ничего</string>
+    <string name="pref_homescreen_gestures_sleep">Отключить экран</string>
+    <string name="pref_homescreen_gestures_torch">Фонарик</string>
+    <string name="pref_homescreen_gestures_google">Поиск в Google</string>
     <string name="pref_homescreen_dt_gestures_google_toast">Приложение Google поиск не установлено</string>
-    <string name="pref_homescreen_gestures_volume_panel">Volume panel</string>
-    <string name="pref_homescreen_gestures_clear_notifications">Clear notifications</string>
-    <string name="pref_homescreen_gestures_screenshot">Screenshot</string>
-    <string name="pref_homescreen_gestures_notifications">Notifications</string>
-    <string name="pref_homescreen_gestures_qs_panel">QS panel</string>
+    <string name="pref_homescreen_gestures_volume_panel">Панель громкости</string>
+    <string name="pref_homescreen_gestures_clear_notifications">Очистить уведомления</string>
+    <string name="pref_homescreen_gestures_screenshot">Скриншот</string>
+    <string name="pref_homescreen_gestures_notifications">Уведомления</string>
+    <string name="pref_homescreen_gestures_qs_panel">Панель быстрых настроек</string>
+    <string name="pref_homescreen_gesture_all_apps">All apps</string>
     <!-- Google Feed -->
     <string name="google_feed_title">Enable Google App and Search</string>
     <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
@@ -75,10 +80,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="reset_hidden_apps_done">Скрытые приложения теперь доступны</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">Названия приложений</string>
-    <string name="desktop_show_label_summary">Show the labels of apps on the homescreen</string>
+    <string name="desktop_show_label_summary">Показать названия приложений на домашнем экране</string>
     <string name="allapps_show_label_summary">Показать названия приложений в меню приложений</string>
     <!-- QSB -->
-    <string name="hotseat_qsb_preferences">Preferences</string>
-    <string name="label_search">Search</string>
-    <string name="label_voice_search">Voice search</string>
+    <string name="hotseat_qsb_preferences">Настройки</string>
+    <string name="label_search">Поиск</string>
+    <string name="label_voice_search">Голосовой поиск</string>
+    <!-- Lock desktop -->
+    <string name="lock_desktop_title">Lock desktop</string>
+    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
+    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
 </resources>

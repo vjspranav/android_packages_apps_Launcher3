@@ -20,17 +20,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="settings_title">Configurações</string>
     <!-- Categories -->
     <string name="home_category_title">Tela inicial</string>
-    <string name="home_category_summary">Grid layout, app labels and dock</string>
+    <string name="home_category_summary">Exibir em grade, rótulo dos aplicativos e dock</string>
     <string name="icons_category_title">Ícones</string>
-    <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
+    <string name="icons_category_summary">Pacote de ícones, forma, tamanho da pontos de notificação</string>
     <string name="app_drawer_category_title">Gaveta de apps</string>
-    <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
+    <string name="app_drawer_category_summary">Esconder aplicativos e rótulos na gaveta de apps</string>
     <string name="gestures_category_title">Gestos</string>
-    <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
-    <string name="gestures_other_category_title">Other</string>
+    <string name="gestures_category_summary">Gestos de Toque duplo, deslizar pra baixo e limpar tudo</string>
+    <string name="gestures_other_category_title">Outros</string>
     <!-- Sub categories -->
     <string name="home_grid_title">Exibição em grade</string>
     <string name="icon_layout_title">Layout de ícone</string>
+    <!-- Icon labels -->
+    <string name="allapps_long_labels_title">Long app labels</string>
+    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
     <!-- Icon packs -->
     <string name="icon_pack">Pacote de ícones</string>
     <string name="icon_pack_summary">Alterar a aparência dos ícones do seu aplicativo</string>
@@ -43,21 +46,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">Limpar tudo a partir do recentes</string>
     <string name="allow_swipe_down_clearall_desc">Deslize verticalmente para baixo no recentes para limpar todos os aplicativos</string>
-    <string name="pref_homescreen_dt_gestures_title">Double tap</string>
-    <string name="pref_homescreen_swipe_down_gestures_title">Swipe down</string>
-    <string name="pref_homescreen_gestures_none">None</string>
-    <string name="pref_homescreen_gestures_sleep">Screen off</string>
-    <string name="pref_homescreen_gestures_torch">Flashlight</string>
-    <string name="pref_homescreen_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_title">Toque duplo</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">Deslizar para baixo</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_gestures_none">Nenhum</string>
+    <string name="pref_homescreen_gestures_sleep">Desligar tela</string>
+    <string name="pref_homescreen_gestures_torch">Lanterna</string>
+    <string name="pref_homescreen_gestures_google">Pesquisa no Google</string>
     <string name="pref_homescreen_dt_gestures_google_toast">Aplicativo do Google não instalado</string>
-    <string name="pref_homescreen_gestures_volume_panel">Volume panel</string>
-    <string name="pref_homescreen_gestures_clear_notifications">Clear notifications</string>
-    <string name="pref_homescreen_gestures_screenshot">Screenshot</string>
-    <string name="pref_homescreen_gestures_notifications">Notifications</string>
-    <string name="pref_homescreen_gestures_qs_panel">QS panel</string>
+    <string name="pref_homescreen_gestures_volume_panel">Painel de volume</string>
+    <string name="pref_homescreen_gestures_clear_notifications">Limpar notificações</string>
+    <string name="pref_homescreen_gestures_screenshot">Captura de tela</string>
+    <string name="pref_homescreen_gestures_notifications">Notificações</string>
+    <string name="pref_homescreen_gestures_qs_panel">Painel de configurações rápidas</string>
+    <string name="pref_homescreen_gesture_all_apps">All apps</string>
     <!-- Google Feed -->
-    <string name="google_feed_title">Enable Google App and Search</string>
-    <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
+    <string name="google_feed_title">Habilitar app do Google e pesquisa</string>
+    <string name="google_feed_summary">Deslizando à direita da tela inicial exibe o aplicativo do Google e usa seu motor de buscas</string>
     <!-- Grid -->
     <string name="num_default">Padrão</string>
     <string name="number_of_columns_title">Número de colunas</string>
@@ -75,10 +80,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="reset_hidden_apps_done">Aplicativos ocultos agora estão disponíveis</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">Rotulo dos apps</string>
-    <string name="desktop_show_label_summary">Show the labels of apps on the homescreen</string>
+    <string name="desktop_show_label_summary">Mostrar os rótulos de apps na tela inicial</string>
     <string name="allapps_show_label_summary">Mostrar os rótulos de apps na gaveta de aplicativos</string>
     <!-- QSB -->
-    <string name="hotseat_qsb_preferences">Preferences</string>
-    <string name="label_search">Search</string>
-    <string name="label_voice_search">Voice search</string>
+    <string name="hotseat_qsb_preferences">Preferências</string>
+    <string name="label_search">Pesquisar</string>
+    <string name="label_voice_search">Busca por voz</string>
+    <!-- Lock desktop -->
+    <string name="lock_desktop_title">Lock desktop</string>
+    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
+    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
 </resources>

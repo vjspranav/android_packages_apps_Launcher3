@@ -20,17 +20,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="settings_title">설정</string>
     <!-- Categories -->
     <string name="home_category_title">홈 화면</string>
-    <string name="home_category_summary">Grid layout, app labels and dock</string>
+    <string name="home_category_summary">그리드 레이아웃, 앱 이름, 도크</string>
     <string name="icons_category_title">아이콘</string>
-    <string name="icons_category_summary">Icon pack, shape, size and notification dots</string>
+    <string name="icons_category_summary">아이콘 팩, 모양, 크기, 알림 뱃지</string>
     <string name="app_drawer_category_title">앱 서랍</string>
-    <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
+    <string name="app_drawer_category_summary">앱과 앱 서랍에서 이름 숨기기</string>
     <string name="gestures_category_title">잠금화면 제스처</string>
-    <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
-    <string name="gestures_other_category_title">Other</string>
+    <string name="gestures_category_summary">두 번 누르기, 쓸어 내리기, 모두 지우기 제스처</string>
+    <string name="gestures_other_category_title">기타 사항</string>
     <!-- Sub categories -->
     <string name="home_grid_title">그리드 레이아웃</string>
     <string name="icon_layout_title">아이콘 레이아웃</string>
+    <!-- Icon labels -->
+    <string name="allapps_long_labels_title">Long app labels</string>
+    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
     <!-- Icon packs -->
     <string name="icon_pack">아이콘 팩</string>
     <string name="icon_pack_summary">앱 아이콘 모양 변경하기</string>
@@ -43,21 +46,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Gestures -->
     <string name="allow_swipe_down_clearall_title">모두 지우기</string>
     <string name="allow_swipe_down_clearall_desc">최근 보기에서 모든 앱을 지우려면 아래쪽으로 밀기</string>
-    <string name="pref_homescreen_dt_gestures_title">Double tap</string>
-    <string name="pref_homescreen_swipe_down_gestures_title">Swipe down</string>
-    <string name="pref_homescreen_gestures_none">None</string>
-    <string name="pref_homescreen_gestures_sleep">Screen off</string>
-    <string name="pref_homescreen_gestures_torch">Flashlight</string>
-    <string name="pref_homescreen_gestures_google">Google search</string>
+    <string name="pref_homescreen_dt_gestures_title">두 번 누르기</string>
+    <string name="pref_homescreen_swipe_down_gestures_title">쓸어 내리기</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_gestures_none">없음</string>
+    <string name="pref_homescreen_gestures_sleep">화면 끄기</string>
+    <string name="pref_homescreen_gestures_torch">손전등</string>
+    <string name="pref_homescreen_gestures_google">Google 검색</string>
     <string name="pref_homescreen_dt_gestures_google_toast">Google 검색이 설치되지 않았습니다.</string>
-    <string name="pref_homescreen_gestures_volume_panel">Volume panel</string>
-    <string name="pref_homescreen_gestures_clear_notifications">Clear notifications</string>
-    <string name="pref_homescreen_gestures_screenshot">Screenshot</string>
-    <string name="pref_homescreen_gestures_notifications">Notifications</string>
-    <string name="pref_homescreen_gestures_qs_panel">QS panel</string>
+    <string name="pref_homescreen_gestures_volume_panel">볼륨 패널</string>
+    <string name="pref_homescreen_gestures_clear_notifications">알림 지우기</string>
+    <string name="pref_homescreen_gestures_screenshot">스크린샷</string>
+    <string name="pref_homescreen_gestures_notifications">알림</string>
+    <string name="pref_homescreen_gestures_qs_panel">빠른 설정 패널</string>
+    <string name="pref_homescreen_gesture_all_apps">All apps</string>
     <!-- Google Feed -->
-    <string name="google_feed_title">Enable Google App and Search</string>
-    <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
+    <string name="google_feed_title">Google 앱과 검색 활성화</string>
+    <string name="google_feed_summary">홈 스크린에서 오른쪽으로 쓸어내면 Google 앱을 표시하고 검색 엔진을 사용합니다</string>
     <!-- Grid -->
     <string name="num_default">기본</string>
     <string name="number_of_columns_title">열 개수</string>
@@ -75,10 +80,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="reset_hidden_apps_done">숨겨진 앱들을 이제 사용 가능합니다</string>
     <!-- Show labels on icon -->
     <string name="app_show_label_title">앱 이름</string>
-    <string name="desktop_show_label_summary">Show the labels of apps on the homescreen</string>
+    <string name="desktop_show_label_summary">홈 화면에서 앱 이름을 표시</string>
     <string name="allapps_show_label_summary">앱 서랍에서 앱 이름을 표시</string>
     <!-- QSB -->
-    <string name="hotseat_qsb_preferences">Preferences</string>
-    <string name="label_search">Search</string>
-    <string name="label_voice_search">Voice search</string>
+    <string name="hotseat_qsb_preferences">설정</string>
+    <string name="label_search">검색</string>
+    <string name="label_voice_search">음성 검색</string>
+    <!-- Lock desktop -->
+    <string name="lock_desktop_title">Lock desktop</string>
+    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
+    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
 </resources>
