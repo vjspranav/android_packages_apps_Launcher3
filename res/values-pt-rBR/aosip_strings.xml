@@ -32,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="home_grid_title">Exibição em grade</string>
     <string name="icon_layout_title">Layout de ícone</string>
     <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Long app labels</string>
-    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
+    <string name="allapps_long_labels_title">Rótulos longos dos apps</string>
+    <string name="allapps_long_labels_summary">Permitir que os rótulos dos apps ocupem duas linhas</string>
     <!-- Icon packs -->
     <string name="icon_pack">Pacote de ícones</string>
     <string name="icon_pack_summary">Alterar a aparência dos ícones do seu aplicativo</string>
@@ -48,7 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_desc">Deslize verticalmente para baixo no recentes para limpar todos os aplicativos</string>
     <string name="pref_homescreen_dt_gestures_title">Toque duplo</string>
     <string name="pref_homescreen_swipe_down_gestures_title">Deslizar para baixo</string>
-    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">Deslizar para cima</string>
     <string name="pref_homescreen_gestures_none">Nenhum</string>
     <string name="pref_homescreen_gestures_sleep">Desligar tela</string>
     <string name="pref_homescreen_gestures_torch">Lanterna</string>
@@ -59,7 +59,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_gestures_screenshot">Captura de tela</string>
     <string name="pref_homescreen_gestures_notifications">Notificações</string>
     <string name="pref_homescreen_gestures_qs_panel">Painel de configurações rápidas</string>
-    <string name="pref_homescreen_gesture_all_apps">All apps</string>
+    <string name="pref_homescreen_gesture_all_apps">Todos os aplicativos</string>
     <!-- Google Feed -->
     <string name="google_feed_title">Habilitar app do Google e pesquisa</string>
     <string name="google_feed_summary">Deslizando à direita da tela inicial exibe o aplicativo do Google e usa seu motor de buscas</string>
@@ -87,7 +87,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="label_search">Pesquisar</string>
     <string name="label_voice_search">Busca por voz</string>
     <!-- Lock desktop -->
-    <string name="lock_desktop_title">Lock desktop</string>
-    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
-    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
+    <string name="lock_desktop_title">Bloquear área de trabalho</string>
+    <string name="lock_desktop_summary">Impedir que a tela inicial seja modificada</string>
+    <string name="lock_desktop_toast">Área de trabalho está bloqueada. Desbloqueie antes de prosseguir.</string>
 </resources>

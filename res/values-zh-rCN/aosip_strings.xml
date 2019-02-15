@@ -32,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="home_grid_title">网格布局</string>
     <string name="icon_layout_title">图标布局</string>
     <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Long app labels</string>
-    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
+    <string name="allapps_long_labels_title">长应用程序标签</string>
+    <string name="allapps_long_labels_summary">允许应用程序使用两行显示标签</string>
     <!-- Icon packs -->
     <string name="icon_pack">图标包</string>
     <string name="icon_pack_summary">更改您的应用图标</string>
@@ -48,7 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_desc">在最近视图中垂直向下滑动以清除所有活动</string>
     <string name="pref_homescreen_dt_gestures_title">双击</string>
     <string name="pref_homescreen_swipe_down_gestures_title">向下滑动</string>
-    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">向上滑动</string>
     <string name="pref_homescreen_gestures_none">无</string>
     <string name="pref_homescreen_gestures_sleep">关闭屏幕</string>
     <string name="pref_homescreen_gestures_torch">手电筒</string>
@@ -59,7 +59,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_gestures_screenshot">截屏</string>
     <string name="pref_homescreen_gestures_notifications">通知</string>
     <string name="pref_homescreen_gestures_qs_panel">快速设置面板</string>
-    <string name="pref_homescreen_gesture_all_apps">All apps</string>
+    <string name="pref_homescreen_gesture_all_apps">所有应用程序</string>
     <!-- Google Feed -->
     <string name="google_feed_title">启用 Google App 和搜索</string>
     <string name="google_feed_summary">从主屏幕右滑显示 Google App 并将其作为底座的搜索引擎</string>
@@ -87,7 +87,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="label_search">搜索</string>
     <string name="label_voice_search">语音搜索</string>
     <!-- Lock desktop -->
-    <string name="lock_desktop_title">Lock desktop</string>
-    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
-    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
+    <string name="lock_desktop_title">锁定桌面</string>
+    <string name="lock_desktop_summary">防止主屏幕被修改</string>
+    <string name="lock_desktop_toast">桌面已锁定。解锁它继续。</string>
 </resources>

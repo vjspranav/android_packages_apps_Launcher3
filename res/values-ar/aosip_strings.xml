@@ -32,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="home_grid_title">تخطيط الشبكة</string>
     <string name="icon_layout_title">تخطيط الأيقونة</string>
     <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Long app labels</string>
-    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
+    <string name="allapps_long_labels_title">تسميات التطبيق الطويلة</string>
+    <string name="allapps_long_labels_summary">السماح للتطبيقات بعرض التسميات باستخدام سطرين</string>
     <!-- Icon packs -->
     <string name="icon_pack">حزمة الإيقونات</string>
     <string name="icon_pack_summary">تغيير مظهر أيقونات التطبيق الخاص بك</string>
@@ -48,7 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_desc">السحب عمودياً لأسفل في عرض التطبيقات الحديثة لمسح جميع التطبيقات</string>
     <string name="pref_homescreen_dt_gestures_title">نقر مزدوج</string>
     <string name="pref_homescreen_swipe_down_gestures_title">مرر لأسفل</string>
-    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">تمرير للأعلى</string>
     <string name="pref_homescreen_gestures_none">لا شيء</string>
     <string name="pref_homescreen_gestures_sleep">إيقاف الشاشة</string>
     <string name="pref_homescreen_gestures_torch">ضوء الفلاش</string>
@@ -59,7 +59,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_gestures_screenshot">لقطة الشاشة</string>
     <string name="pref_homescreen_gestures_notifications">الإشعارات</string>
     <string name="pref_homescreen_gestures_qs_panel">لوحة الإعدادات السريعة</string>
-    <string name="pref_homescreen_gesture_all_apps">All apps</string>
+    <string name="pref_homescreen_gesture_all_apps">كل التطبيقات</string>
     <!-- Google Feed -->
     <string name="google_feed_title">تمكين تطبيق Google والبحث</string>
     <string name="google_feed_summary">عرض تطبيق Google بواسطة التمرير لليسار من الشاشة الرئيسية واستخدم محرك البحث الخاص به للشريط السفلي</string>
@@ -87,7 +87,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="label_search">البحث</string>
     <string name="label_voice_search">البحث الصوتي</string>
     <!-- Lock desktop -->
-    <string name="lock_desktop_title">Lock desktop</string>
-    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
-    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
+    <string name="lock_desktop_title">قفل سطح المكتب</string>
+    <string name="lock_desktop_summary">منع الشاشة الرئيسية من التعديل</string>
+    <string name="lock_desktop_toast">تم قفل سطح المكتب. إلغاء القفل للمضي قدماً.</string>
 </resources>

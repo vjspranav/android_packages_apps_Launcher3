@@ -32,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="home_grid_title">그리드 레이아웃</string>
     <string name="icon_layout_title">아이콘 레이아웃</string>
     <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Long app labels</string>
-    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
+    <string name="allapps_long_labels_title">긴 앱 이름</string>
+    <string name="allapps_long_labels_summary">앱 이름을 두 줄로 표시하도록 허용합니다.</string>
     <!-- Icon packs -->
     <string name="icon_pack">아이콘 팩</string>
     <string name="icon_pack_summary">앱 아이콘 모양 변경하기</string>
@@ -48,7 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_desc">최근 보기에서 모든 앱을 지우려면 아래쪽으로 밀기</string>
     <string name="pref_homescreen_dt_gestures_title">두 번 누르기</string>
     <string name="pref_homescreen_swipe_down_gestures_title">쓸어 내리기</string>
-    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">쓸어 올리기</string>
     <string name="pref_homescreen_gestures_none">없음</string>
     <string name="pref_homescreen_gestures_sleep">화면 끄기</string>
     <string name="pref_homescreen_gestures_torch">손전등</string>
@@ -59,7 +59,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_gestures_screenshot">스크린샷</string>
     <string name="pref_homescreen_gestures_notifications">알림</string>
     <string name="pref_homescreen_gestures_qs_panel">빠른 설정 패널</string>
-    <string name="pref_homescreen_gesture_all_apps">All apps</string>
+    <string name="pref_homescreen_gesture_all_apps">모든 앱</string>
     <!-- Google Feed -->
     <string name="google_feed_title">Google 앱과 검색 활성화</string>
     <string name="google_feed_summary">홈 스크린에서 오른쪽으로 쓸어내면 Google 앱을 표시하고 검색 엔진을 사용합니다</string>
@@ -87,7 +87,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="label_search">검색</string>
     <string name="label_voice_search">음성 검색</string>
     <!-- Lock desktop -->
-    <string name="lock_desktop_title">Lock desktop</string>
-    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
-    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
+    <string name="lock_desktop_title">바탕 화면 잠금</string>
+    <string name="lock_desktop_summary">홈 화면이 변경되는 것을 방지합니다</string>
+    <string name="lock_desktop_toast">바탕 화면이 잠겼습니다. 계속하려면 잠금을 해제하세요.</string>
 </resources>
