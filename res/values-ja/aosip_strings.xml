@@ -26,14 +26,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_drawer_category_title">アプリドロワー</string>
     <string name="app_drawer_category_summary">アプリとアプリドロワーラベルを隠す</string>
     <string name="gestures_category_title">ジェスチャー</string>
-    <string name="gestures_category_summary">ダブルタップ、スワイプダウン、全て消去ジェスチャー</string>
+    <string name="gestures_category_summary">ダブルタップ、下スワイプ、全て消去ジェスチャー</string>
     <string name="gestures_other_category_title">その他</string>
     <!-- Sub categories -->
     <string name="home_grid_title">グリッドレイアウト</string>
     <string name="icon_layout_title">アイコンレイアウト</string>
     <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Long app labels</string>
-    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
+    <string name="allapps_long_labels_title">長いアプリラベル</string>
+    <string name="allapps_long_labels_summary">2行に渡るアプリラベルを許可する</string>
     <!-- Icon packs -->
     <string name="icon_pack">アイコンパック</string>
     <string name="icon_pack_summary">アプリアイコンの外観を変更</string>
@@ -48,18 +48,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="allow_swipe_down_clearall_desc">アプリ履歴で下スワイプすると全てクリアする</string>
     <string name="pref_homescreen_dt_gestures_title">ダブルタップ</string>
     <string name="pref_homescreen_swipe_down_gestures_title">スワイプダウン</string>
-    <string name="pref_homescreen_swipe_up_gestures_title">Swipe up</string>
+    <string name="pref_homescreen_swipe_up_gestures_title">上へスワイプ</string>
     <string name="pref_homescreen_gestures_none">なし</string>
-    <string name="pref_homescreen_gestures_sleep">画面オフ</string>
+    <string name="pref_homescreen_gestures_sleep">画面消灯</string>
     <string name="pref_homescreen_gestures_torch">フラッシュライト</string>
-    <string name="pref_homescreen_gestures_google">Google検索</string>
-    <string name="pref_homescreen_dt_gestures_google_toast">Google検索はインストールされていません</string>
+    <string name="pref_homescreen_gestures_google">Google 検索</string>
+    <string name="pref_homescreen_dt_gestures_google_toast">Google 検索はインストールされていません</string>
     <string name="pref_homescreen_gestures_volume_panel">音量パネル</string>
     <string name="pref_homescreen_gestures_clear_notifications">通知を消去</string>
     <string name="pref_homescreen_gestures_screenshot">スクリーンショット</string>
     <string name="pref_homescreen_gestures_notifications">通知</string>
     <string name="pref_homescreen_gestures_qs_panel">クイック設定パネル</string>
-    <string name="pref_homescreen_gesture_all_apps">All apps</string>
+    <string name="pref_homescreen_gesture_all_apps">全てのアプリ</string>
     <!-- Google Feed -->
     <string name="google_feed_title">Google アプリと検索の有効化</string>
     <string name="google_feed_summary">ホーム画面から右にスワイプして Google アプリを表示しホットシートに検索エンジンを使用する</string>
@@ -87,7 +87,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="label_search">検索</string>
     <string name="label_voice_search">音声検索</string>
     <!-- Lock desktop -->
-    <string name="lock_desktop_title">Lock desktop</string>
-    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
-    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
+    <string name="lock_desktop_title">デスクトップをロック</string>
+    <string name="lock_desktop_summary">ホーム画面の編集を防ぐ</string>
+    <string name="lock_desktop_toast">デスクトップはロックされています。進めるにはロック解除して下さい。</string>
 </resources>
