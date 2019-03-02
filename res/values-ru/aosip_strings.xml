@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="icons_category_title">Иконки</string>
     <string name="icons_category_summary">Пакет значков, форма, размер и точки уведомлений</string>
     <string name="app_drawer_category_title">Меню приложений</string>
-    <string name="app_drawer_category_summary">Hide apps and app drawer labels</string>
+    <string name="app_drawer_category_summary">Скрыть приложения и подписи приложений</string>
     <string name="gestures_category_title">Жесты</string>
     <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
     <string name="gestures_other_category_title">Прочее</string>
@@ -62,7 +62,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_gesture_all_apps">Все приложения</string>
     <!-- Google Feed -->
     <string name="google_feed_title">Enable Google App and Search</string>
-    <string name="google_feed_summary">Show Google App with right swipe from home screen and use its search engine for hotseats</string>
+    <string name="google_feed_summary">Показать приложение Google с свайпом вправо с домашнего экрана и использовать его поисковую систему для горячих мест</string>
     <!-- Grid -->
     <string name="num_default">По умолчанию</string>
     <string name="number_of_columns_title">Количество столбцов</string>
@@ -88,6 +88,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="label_voice_search">Голосовой поиск</string>
     <!-- Lock desktop -->
     <string name="lock_desktop_title">Заблокировать рабочий стол</string>
-    <string name="lock_desktop_summary">Prevent the homescreen from being modified</string>
+    <string name="lock_desktop_summary">Запретить изменения домашнего экрана</string>
     <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
 </resources>
