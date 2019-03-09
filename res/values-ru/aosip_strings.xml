@@ -20,20 +20,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="settings_title">Настройки</string>
     <!-- Categories -->
     <string name="home_category_title">Домашний экран</string>
-    <string name="home_category_summary">Grid layout, app labels and dock</string>
+    <string name="home_category_summary">Макет сетки, ярлыки приложений и док-станция</string>
     <string name="icons_category_title">Иконки</string>
     <string name="icons_category_summary">Пакет значков, форма, размер и точки уведомлений</string>
     <string name="app_drawer_category_title">Меню приложений</string>
     <string name="app_drawer_category_summary">Скрыть приложения и подписи приложений</string>
     <string name="gestures_category_title">Жесты</string>
-    <string name="gestures_category_summary">Double tap, swipe down and clear-all gestures</string>
+    <string name="gestures_category_summary">Двойное нажатие, свайп вниз и очистить все жесты</string>
     <string name="gestures_other_category_title">Прочее</string>
     <!-- Sub categories -->
     <string name="home_grid_title">Схема сетки</string>
     <string name="icon_layout_title">Расположение иконок</string>
     <!-- Icon labels -->
-    <string name="allapps_long_labels_title">Long app labels</string>
-    <string name="allapps_long_labels_summary">Allows apps to display labels using two lines</string>
+    <string name="allapps_long_labels_title">Длиннные ярлыки приложений</string>
+    <string name="allapps_long_labels_summary">Разрешить приложениям отображать ярлыки используя две линии</string>
     <!-- Icon packs -->
     <string name="icon_pack">Набор иконок</string>
     <string name="icon_pack_summary">Измените внешний вид значков приложений</string>
@@ -61,7 +61,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_homescreen_gestures_qs_panel">Панель быстрых настроек</string>
     <string name="pref_homescreen_gesture_all_apps">Все приложения</string>
     <!-- Google Feed -->
-    <string name="google_feed_title">Enable Google App and Search</string>
+    <string name="google_feed_title">Включить приложение Google и Поиск</string>
     <string name="google_feed_summary">Показать приложение Google с свайпом вправо с домашнего экрана и использовать его поисковую систему для горячих мест</string>
     <!-- Grid -->
     <string name="num_default">По умолчанию</string>
@@ -89,5 +89,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Lock desktop -->
     <string name="lock_desktop_title">Заблокировать рабочий стол</string>
     <string name="lock_desktop_summary">Запретить изменения домашнего экрана</string>
-    <string name="lock_desktop_toast">Desktop is locked. Unlock it to proceed.</string>
+    <string name="lock_desktop_toast">Рабочий стол заблокирован. Разблокируйте его, чтобы продолжить.</string>
 </resources>
