@@ -17,8 +17,8 @@
 package com.android.launcher3;
 
 import android.app.ActivityOptions;
-import android.app.UiModeManager;
 import android.content.ActivityNotFoundException;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.Intent;
@@ -28,8 +28,10 @@ import android.os.Bundle;
 import android.os.Process;
 import android.os.StrictMode;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.ActionMode;
+import android.view.Surface;
 import android.view.View;
 import android.widget.Toast;
 
@@ -57,6 +59,8 @@ public abstract class BaseDraggingActivity extends BaseActivity
     // automatically when user interacts with the launcher.
     public static final Object AUTO_CANCEL_ACTION_MODE = new Object();
 
+    private static final String SYSTEM_THEME = "system_theme";
+
     private ActionMode mCurrentActionMode;
     protected boolean mIsSafeModeEnabled;
 
@@ -65,8 +69,6 @@ public abstract class BaseDraggingActivity extends BaseActivity
     private int mThemeRes = R.style.AppTheme;
 
     private DisplayRotationListener mRotationListener;
-
-    private UiModeManager mUiModeManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,7 +84,6 @@ public abstract class BaseDraggingActivity extends BaseActivity
             mThemeRes = themeRes;
             //setTheme(themeRes);
         }
-        mUiModeManager = this.getSystemService(UiModeManager.class);
         updateTheme(wallpaperColorInfo);
     }
 
@@ -278,15 +279,20 @@ public abstract class BaseDraggingActivity extends BaseActivity
         void onActivityStart(T activity);
     }
 
-    private void updateTheme(WallpaperColorInfo wallpaperColorInfo) {
-        final Configuration config = this.getResources().getConfiguration();
-        final boolean nightModeWantsDarkTheme = (config.uiMode & Configuration.UI_MODE_NIGHT_MASK)
-                == Configuration.UI_MODE_NIGHT_YES;
-        if (nightModeWantsDarkTheme) {
-            setTheme(wallpaperColorInfo.supportsDarkText() ? R.style.AppTheme_Dark_DarkText :
-                    R.style.AppTheme_Dark);
-        } else {
-            setTheme(mThemeRes);
+    protected void updateTheme(WallpaperColorInfo wallpaperColorInfo) {
+        ContentResolver resolver = this.getContentResolver();
+        final boolean supportsDarkText = wallpaperColorInfo.supportsDarkText();
+        final int systemTheme = Settings.System.getInt(resolver, SYSTEM_THEME, 0);
+        switch (systemTheme) {
+            case 1:
+                setTheme(supportsDarkText ? R.style.LauncherTheme_DarkText : R.style.LauncherTheme);
+                break;
+            case 2:
+                setTheme(supportsDarkText ? R.style.LauncherThemeDark_DarKText : R.style.LauncherThemeDark);
+                break;
+            default:
+                setTheme(mThemeRes);
+                break;
         }
     }
 }
