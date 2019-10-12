@@ -37,6 +37,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
+import com.android.launcher3.LauncherAppState;
 import com.aosp.launcher.AospLauncherCallbacks;
 import com.aosp.launcher.AospUtils;
 
@@ -295,6 +296,7 @@ public class SettingsActivity extends Activity
 
         @Override
         public void onDestroy() {
+            LauncherAppState.getInstanceNoCreate().checkIfRestartNeeded();
             if (mNotificationDotsObserver != null) {
                 mNotificationDotsObserver.unregister();
                 mNotificationDotsObserver = null;
