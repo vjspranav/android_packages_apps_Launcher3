@@ -29,7 +29,17 @@ public class AppItemInfoWithIcon extends ItemInfoWithIcon {
         user = componentKey.user;
     }
 
+
+    public AppItemInfoWithIcon(AppItemInfoWithIcon copy) {
+        this.user = copy.user;
+    }
+
     public Intent getIntent() {
         return mIntent;
+    }
+
+    @Override
+    public AppItemInfoWithIcon clone() {
+        return new AppItemInfoWithIcon(this);
     }
 }
